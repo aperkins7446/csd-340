@@ -1,0 +1,52 @@
+
+h1, #title {
+    text-align: center;
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+}
+
+#top-books {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#learned{
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#diff-font{
+    list-style-type: upper-roman;
+}
+
+footer{
+    width: 100%;
+    /* I decided 60 px because 60 caused a huge vertical scroll of empty space- sorry! */ 
+    margin-top: 60px;
+    float: right;
+    /* I added text-align right because the float still did not put my link on the right of the page */ 
+    text-align: right;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#portal-page{
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+#portal-page:hover{
+    text-decoration: underline;
+}
+
