@@ -1,0 +1,60 @@
+/* Angela Pekins Module 5 CSS */
+
+/* Creates the three side by side grids */
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* centers the text and applies font perfs to the title of the site */ 
+#site-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* sets size for the imgs */
+img {
+    width: 400px;
+    height: 350px;
+}
+
+/*sets font perfs for book titles */
+.book-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+/* centers text on figure tags */
+figure {
+    text-align: center;
+}
+
+/* sets font perfs for figcaption tags */
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+
+/*gives another color to the h1, h3, figcaptions */
+h1, h3, figcaption {
+    color: rgba(99, 148, 189, 1);
+}
+
+/*add border, padding to book items */
+.image-item {
+    border: 1px solid rgba(99, 148, 189, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/*center and apply font perfs to footer */ 
+footer {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+    color: rgb(2, 34, 59) 
+}
