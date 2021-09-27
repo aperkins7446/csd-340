@@ -1,0 +1,117 @@
+/* Angela Perkins */
+body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #227C9D;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #227C9D;
+    border-bottom: 15px solid #D6A800;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #D6A800;
+    color: #227C9D;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /*Not in instructions, but added to be consistent with your visual solution */
+    background-color: #227C9D;
+}
+
+#movies td{
+    border: 1px solid;
+    border-color: #ddd;
+    padding: 8px;
+}
+
+
+footer {
+    background-color: #227C9D;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.copyright{
+    text-decoration: none;
+    color: white;
+    text-align: left;  
+}
+
+.portal_link {
+   text-decoration: none;
+   color: white;
+   text-align: right;
+   /*Added padding so the link didn't go too far off the page*/
+   padding-right: 10px;
+}
+
+.portal_link:hover {
+    text-decoration: underline;
+}
+
+#container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+
+
+
